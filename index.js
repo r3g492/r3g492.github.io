@@ -1,4 +1,4 @@
-import { Universe, Cell } from "wasm-game-of-life";
+import { Universe, Cell } from "./pkg/";
 import { memory } from "./pkg/wasm_game_of_life_bg.wasm";
 
 const CELL_SIZE = 30; // px
